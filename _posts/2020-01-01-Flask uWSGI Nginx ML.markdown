@@ -2,7 +2,7 @@
 layout: post
 title:  "Flask uWSGI Nginx ML"
 date:   2020-01-01 00:00:00 +0900
-categories: [ Python, MachineLearning, Docker ]
+categories: [ Python ]
 ---
 <h3>Flask, uWSGI, Nginx를 이용한 머신러닝 플랫폼 구축</h3>
 <br>
@@ -265,7 +265,7 @@ Base Interpreter : pythonw.exe
 
 로컬에서 개발이 끝난 프로그램을 이미지로 만들어서 도커 레파지터리로 push를 했다고 가정한다.
 
-spakc.tipsbdsys(192.168.1.147 root / WelcomeSparkc) 접속하고, 여기서 도커 이미지를 다운로드한다.
+spakc.tipsbdsys 접속하고, 여기서 도커 이미지를 다운로드한다.
 
 {% highlight none %}
 [root@sparkc ~]# docker run --privileged -d --name machine -h machine -p 222:22 -p 80:80 -p 5000:5000 -p 8000:8000 docker.io/leedothk/centos8:flask-uwsgi-nginx /sbin/init
