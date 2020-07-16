@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Python
+title: 파이썬
 nav_order: 1
 has_children: true
 permalink: /docs/python
