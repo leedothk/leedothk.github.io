@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Flask uWSGI Nginx
-parent: 파이썬
+parent: Python
 nav_order: 1
 ---
 

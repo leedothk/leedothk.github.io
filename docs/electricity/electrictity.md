@@ -1,9 +1,9 @@
 ---
 layout: default
-title: Python
-nav_order: 2
+title: Electricity
+nav_order: 3
 has_children: true
-permalink: /docs/python
+permalink: /docs/electricity
 ---
 
 # UI Components
