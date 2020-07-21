@@ -1,6 +1,6 @@
 ---
 layout: default
-title: 전기설비 기술기준 및 판단기준
+title: 기술기준 및 판단기준
 parent: Electricity
 nav_order: 5
 ---
