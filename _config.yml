@@ -13,7 +13,7 @@
 # you will see them accessed via {{ site.title }}, {{ site.github_repo }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Just the Docs
+title: Lee's Blog
 description: A Jekyll theme for documentation
 baseurl: "/" # the subpath of your site, e.g. /blog
 url: "https://leedothk.github.io" # the base hostname & protocol for your site, e.g. http://example.com
@@ -108,3 +108,11 @@ compress_html:
   profile: false
 
 gem 'jekyll-admin', group: :jekyll_plugins
+
+
+# Conversion
+markdown: kramdown
+highlighter: rouge
+lsi: false
+excerpt_separator: "\n\n"
+incremental: false

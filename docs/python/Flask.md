@@ -24,7 +24,7 @@ nav_order: 1
 
 <br>
 
-![](/just-the-docs/assets/images/python_ml_arch.png)
+![](/assets/images/python_ml_arch.png)
 
 ---
 
