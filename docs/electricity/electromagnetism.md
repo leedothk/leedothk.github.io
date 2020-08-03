@@ -72,18 +72,18 @@ $1 [kWh] = 860 [kcal]$
 <div class="code-example" markdown="1">
 * 기본공식
 
-$C = \frac{Q}{V}$ | $R = \frac{\rho\epsilon}{C}$ <br> $RC = \rho\epsilon$ | $L = \frac{\mu\epsilon}{C}$ <br> $LC = \mu\epsilon$
+$C = \frac{Q}{V}[F]$ | $R = \frac{\rho\epsilon}{C}[\Omega]$ <br> $RC = \rho\epsilon[\Omega]$ | $L = \frac{\mu\epsilon}{C}[H]$ <br> $LC = \mu\epsilon[H]$
 
 * 구도체
 
-$V = \frac{Q}{4\pi\epsilon_0 a}$ | $C = 4\pi\epsilon_0a$ | $R = \frac{\rho}{4\pi a}$ | $L = \frac{\mu}{4\pi a}$
+$V = \frac{Q}{4\pi\epsilon_0 a}[V]$ | $C = 4\pi\epsilon_0a[F]$ | $R = \frac{\rho}{4\pi a}$ | $L = \frac{\mu}{4\pi a}$
 
 * 동심원통도체
 
-$V = \frac{\lambda}{2\pi\epsilon_0}\ln\frac{b}{a}$ | $C = \frac{2\pi\epsilon_0l}{\ln\frac{b}{a}}$ <br><br> $C^\prime = \frac{2\pi\epsilon_0}{\ln\frac{b}{a}}$ | $R = \frac{\rho}{2\pi l}\ln\frac{b}{a}$ <br><br> $R^\prime = \frac{\rho}{2\pi}\ln\frac{b}{a}$ | $L = \frac{\mu}{2\pi l}\ln\frac{b}{a}$ <br><br> $L^\prime = \frac{\mu}{2\pi}\ln\frac{b}{a}$ 
+$V = \frac{\lambda}{2\pi\epsilon_0}\ln\frac{b}{a}[V]$ | $C = \frac{2\pi\epsilon_0l}{\ln\frac{b}{a}}[F \cdot m]$ <br><br> $C^\prime = \frac{2\pi\epsilon_0}{\ln\frac{b}{a}}[F]$ | $R = \frac{\rho}{2\pi l}\ln\frac{b}{a}[\Omega \cdot m]$ <br><br> $R^\prime = \frac{\rho}{2\pi}\ln\frac{b}{a}[\Omega]$ | $L = \frac{\mu}{2\pi l}\ln\frac{b}{a}[H \cdot m]$ <br><br> $L^\prime = \frac{\mu}{2\pi}\ln\frac{b}{a}[H]$ 
 
 * 평행도선
 
-$V = \frac{\lambda}{\pi\epsilon_0}\ln\frac{d}{a}$ | $C = \frac{\pi\epsilon_0l}{\ln\frac{d}{a}}$ <br><br> $C^\prime = \frac{\pi\epsilon_0}{\ln\frac{d}{a}}$ | $R = \frac{\rho}{\pi l}\ln\frac{d}{a}$ <br><br> $R^\prime = \frac{\rho}{\pi}\ln\frac{d}{a}$ | $L = \frac{\mu}{\pi l}\ln\frac{d}{a}$ <br><br> $L^\prime = \frac{\mu}{\pi}\ln\frac{d}{a}$
+$V = \frac{\lambda}{\pi\epsilon_0}\ln\frac{d}{a}[V]$ | $C = \frac{\pi\epsilon_0l}{\ln\frac{d}{a}}[F \cdot m]$ <br><br> $C^\prime = \frac{\pi\epsilon_0}{\ln\frac{d}{a}}[F]$ | $R = \frac{\rho}{\pi l}\ln\frac{d}{a}[\Omega \cdot m]$ <br><br> $R^\prime = \frac{\rho}{\pi}\ln\frac{d}{a}[\Omega]$ | $L = \frac{\mu}{\pi l}\ln\frac{d}{a}[H \cdot m]$ <br><br> $L^\prime = \frac{\mu}{\pi}\ln\frac{d}{a}[H]$
 
 </div>
