@@ -56,12 +56,12 @@ $1 [kWh] = 860 [kcal]$
 
 <div class="code-example" markdown="1">
 
-| 이름                     | 미분형                                                | 적분형 | 의미                                          |
-|:-------------------------|:-----------------------------------------------------|:-------|:---------------------------------------------|
-| 가우스 전기장       | $\nabla \cdot E = \frac{\rho}{\epsilon_o}$            |        | 전하는 전기장을 만듬 |
-| 가우스 자기장        | $\nabla \cdot B = 0$                                   |        | 자기홀극자는 존재하지 않음   |
-| 패러데이  | $\nabla \times E = - \frac{\partial B}{\partial t}$    |        | 자기장이 변하면 전기장이 생성됨(rot E)          |
-| 앙페르-맥스웰 | $\nabla \times B = \mu_0 J + \epsilon_o \mu_0 \frac{\partial E}{\partial t}$ || 전기장이 변하면 자기장이 생성됨(rot B)|
+| 이름                     | 미분형                                                | 적분형 | 
+|:-------------------------|:-----------------------------------------------------|:-------|
+| 가우스 전속 (+전하와 -전하는 홀로 존재할 수 있음)|$\nabla \cdot D = \rho_v$ | $\oint D \cdot dS = \int_v \rho_v dv = Q$|
+| 가우스 자속 (N극과 S극은 홀로 존재할 수 없음) | $\nabla \cdot B = 0$ |$\oint B \cdot dS = 0$|
+| 패러데이 법칙 (자기장이 변하면 전류가 생성됨)  | $\nabla \times E = - \frac{\partial B}{\partial t} = - \mu \frac{\partial H}{\partial t}$ | $\oint E \cdot dl = \int_s (- \frac{d B}{dt})dS$|
+| 앙페르 주회적분 (전도전류 또는 변위전류는 자계발생) | $\nabla \times H = i_c + i_D = kE + \epsilon \frac{\partial E}{\partial t}$ | $\oint_l H \cdot dl = \int_s i \cdot dS = \int_s (i_c + \frac{\partial D}{\partial t})dS$|
 
 </div>
 
