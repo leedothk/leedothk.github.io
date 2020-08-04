@@ -52,22 +52,9 @@ $1 [kWh] = 860 [kcal]$
 
 ---
 
-## 맥스웰 방정식
-
-<div class="code-example" markdown="1">
-
-| 이름                     | 미분형                                                | 적분형 | 
-|:-------------------------|:-----------------------------------------------------|:-------|
-| 가우스 전속 (+전하와 -전하는 홀로 존재할 수 있음)|$\nabla \cdot D = \rho_v$ | $\oint D \cdot dS = \int_v \rho_v dv = Q$|
-| 가우스 자속 (N극과 S극은 홀로 존재할 수 없음) | $\nabla \cdot B = 0$ |$\oint B \cdot dS = 0$|
-| 패러데이 법칙 (자기장이 변하면 전류가 생성됨)  | $\nabla \times E = - \frac{\partial B}{\partial t} = - \mu \frac{\partial H}{\partial t}$ | $\oint E \cdot dl = \int_s (- \frac{d B}{dt})dS$|
-| 앙페르 주회적분 (전도전류 또는 변위전류는 자계발생) | $\nabla \times H = i_c + i_D = kE + \epsilon \frac{\partial E}{\partial t}$ | $\oint_l H \cdot dl = \int_s i \cdot dS = \int_s (i_c + \frac{\partial D}{\partial t})dS$|
-
-</div>
-
----
-
 ## 정전계
+
+### 전위, 정전용량, 저항, 인덕턴스
 
 <div class="code-example" markdown="1">
 * 기본공식
@@ -87,3 +74,21 @@ $V = \frac{\lambda}{2\pi\epsilon_0}\ln\frac{b}{a}[V]$ | $C = \frac{2\pi\epsilon_
 $V = \frac{\lambda}{\pi\epsilon_0}\ln\frac{d}{a}[V]$ | $C = \frac{\pi\epsilon_0l}{\ln\frac{d}{a}}[F \cdot m]$ <br><br> $C^\prime = \frac{\pi\epsilon_0}{\ln\frac{d}{a}}[F]$ | $R = \frac{\rho}{\pi l}\ln\frac{d}{a}[\Omega \cdot m]$ <br><br> $R^\prime = \frac{\rho}{\pi}\ln\frac{d}{a}[\Omega]$ | $L = \frac{\mu}{\pi l}\ln\frac{d}{a}[H \cdot m]$ <br><br> $L^\prime = \frac{\mu}{\pi}\ln\frac{d}{a}[H]$
 
 </div>
+
+## 전자장
+
+### 맥스웰 방정식
+
+<div class="code-example" markdown="1">
+
+| 이름                     | 미분형                                                | 적분형 | 
+|:-------------------------|:-----------------------------------------------------|:-------|
+| 가우스 전속 (+전하와 -전하는 홀로 존재할 수 있음)|$\nabla \cdot D = \rho_v$ | $\oint D \cdot dS = \int_v \rho_v dv = Q$|
+| 가우스 자속 (N극과 S극은 홀로 존재할 수 없음) | $\nabla \cdot B = 0$ |$\oint B \cdot dS = 0$|
+| 패러데이 법칙 (자기장이 변하면 전류가 생성됨)  | $\nabla \times E = - \frac{\partial B}{\partial t} = - \mu \frac{\partial H}{\partial t}$ | $\oint E \cdot dl = \int_s (- \frac{d B}{dt})dS$|
+| 앙페르 주회적분 (전도전류 또는 변위전류는 자계발생) | $\nabla \times H = i_c + i_D = kE + \epsilon \frac{\partial E}{\partial t}$ | $\oint_l H \cdot dl = \int_s i \cdot dS = \int_s (i_c + \frac{\partial D}{\partial t})dS$|
+
+</div>
+
+---
+
