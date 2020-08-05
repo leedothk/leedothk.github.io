@@ -33,3 +33,15 @@ use_math: true
 
 </div>
 
+---
+
+## 라플라스 변환
+
+|               | f(t) | F(s) |
+|:-----|:-----|
+| 단위임펄스함수 | $\delta(t)$ | 1 |
+| 단위계단함수   | $u(t), 1$      | $\frac{1}{s}$ | 
+| 단위경사함수   | $t$         | $\frac{1}{s^2}$ |
+| | $\sin \omega t$ | $\frac{\omega}{s^2 + \omega^2}$ |
+| | $\cos \omega t$ | $\frac{s}{s^2 + \omega^2}$ |
+| | $e^{-at}$ | $\frac{1}{s + a}$ |
